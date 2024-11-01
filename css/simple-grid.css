@@ -1,0 +1,216 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+*** http://www.simplegrid.io/
+******************************
+***Modified By WPFANATICO.COM
+******************************
+**/
+
+/* ==== GRID SYSTEM ==== */
+
+.wpf-container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wpf-row {
+  position: relative;
+  width: 100%;
+}
+
+.wpf-row [class^="wpf-col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.wpf-container img
+{
+	width:100%;
+	min-height:200px;
+}
+
+.wpf-post-title {
+    color: #444;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.wpf-container p
+{
+	text-align: justify;
+	word-break: break-all;
+}
+
+.wpf-col-1,
+.wpf-col-2,
+.wpf-col-3,
+.wpf-col-4,
+.wpf-col-5,
+.wpf-col-6,
+.wpf-col-7,
+.wpf-col-8,
+.wpf-col-9,
+.wpf-col-10,
+.wpf-col-11,
+.wpf-col-12 {
+  width: 96%;
+}
+
+.wpf-col-1-sm {
+  width: 4.33%;
+}
+
+.wpf-col-2-sm {
+  width: 12.66%;
+}
+
+.wpf-col-3-sm {
+  width: 21%;
+}
+
+.wpf-col-4-sm {
+  width: 29.33%;
+}
+
+.wpf-col-5-sm {
+  width: 37.66%;
+}
+
+.wpf-col-6-sm {
+  width: 46%;
+}
+
+.wpf-col-7-sm {
+  width: 54.33%;
+}
+
+.wpf-col-8-sm {
+  width: 62.66%;
+}
+
+.wpf-col-9-sm {
+  width: 71%;
+}
+
+.wpf-col-10-sm {
+  width: 79.33%;
+}
+
+.wpf-col-11-sm {
+  width: 87.66%;
+}
+
+.wpf-col-12-sm {
+  width: 96%;
+}
+
+.wpf-row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.wpf-hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .wpf-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .wpf-col-1 {
+    width: 4.33%;
+  }
+
+  .wpf-col-2 {
+    width: 12.66%;
+  }
+
+  .wpf-col-3 {
+    width: 21%;
+  }
+
+  .wpf-col-4 {
+    width: 29.33%;
+  }
+
+  .wpf-col-5 {
+    width: 37.66%;
+  }
+
+  .wpf-col-6 {
+    width: 46%;
+  }
+
+  .wpf-col-7 {
+    width: 54.33%;
+  }
+
+  .wpf-col-8 {
+    width: 62.66%;
+  }
+
+  .wpf-col-9 {
+    width: 71%;
+  }
+
+  .wpf-col-10 {
+    width: 79.33%;
+  }
+
+  .wpf-col-11 {
+    width: 87.66%;
+  }
+
+  .wpf-col-12 {
+    width: 96%;
+  }
+
+  .wpf-hidden-sm {
+    display: block;
+  }
+}
+
+.cont-img
+{
+float: left;
+/*transition: all 0.3s ease;*/
+}
+
+.cont-img:hover
+{
+	
+}
+.prueba
+{
+transition: all 0.3s ease;
+}
+.prueba:hover
+{
+	opacity:0.8;
+	box-shadow: 0px 0px 0px 3px rgba(183, 183, 183, 0.44);	
+}
+
+.date-post
+{
+font-size: 12px;
+border-top: 1px solid rgba(183, 183, 183, 0.44);
+text-align: right;
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .wpf-container {
+    width: 95%;
+    max-width: 60rem;
+  }
+}
